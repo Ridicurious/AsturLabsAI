@@ -1,0 +1,29 @@
+/* src/index.css */
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+/* Global CSS Overrides */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%; /* THIS LINE IS KEY */
+    /* font-family: 'Source Sans Pro', sans-serif; */
+}
+
+/* Custom Font Class */
+/* .font-source-sans {
+    font-family: 'Source Sans Pro', sans-serif;
+} */
+
+/* Drag Over Class */
+.drag-over {
+    background-color: rgba(0, 170, 255, 0.2);
+    border-color: #00aaff;
+}
